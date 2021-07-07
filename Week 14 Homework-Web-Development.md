@@ -1,4 +1,4 @@
-# Week 14 Homework: Web Development
+## Week 14 Homework: Web Development
 
 ### Overview
 
@@ -69,13 +69,13 @@ Answer the following questions about sessions and cookies:
     GET /cart HTTP/1.1
     Host: www.example.org
     Cookie: cart=Bob
-    ```
 
 #### Example HTTP Requests and Responses
 
 Look through the following example HTTP request and response and answer the following questions:
 
 **HTTP Request**
+
 
 ```HTTP
 POST /login.php HTTP/1.1
@@ -92,11 +92,20 @@ username=Barbara&password=password
 
 17. What is the request method?
 
+- HTTP POST /login.php HTTP/1.1
+
 18. Which header expresses the client's preference for an encrypted response?
+
+- HTTP POST /login.php HTTP/1.1
 
 19. Does the request have a user session associated with it?
 
+- No Cookie
+
 20. What kind of data is being sent from this request body?
+
+- username=Barbara&password=password
+```
 
 **HTTP Response**
 
@@ -118,14 +127,20 @@ X-XSS-Protection: 1; mode=block
 ```
 
 21. What is the response status code?
+- 200
 
 22. What web server is handling this HTTP response?
+- Apache
 
 23. Does this response have a user session associated to it?
+- Yes, I see "Set-Cookie: SessionID=5"
 
 24. What kind of content is likely to be in the [page content] response body?
+- gzip
 
 25. If your class covered security headers, what security request headers have been included?
+- Strict-Transport-Security: max-age=31536000; includeSubDomains
+
 
 #### Monoliths and Microservices
 
@@ -133,29 +148,48 @@ Answer the following questions about monoliths and microservices:
 
 26. What are the individual components of microservices called?
 
+- how microservices and architecture work to deliver more robust, reliable, 
+and repeatable infrastructure as code. 
+
+
 27. What is a service that writes to a database and communicates to other services?
 
+- Back-end server
+Executes business logic and 
+writes or reads corresponding 
+data to and from a database. 
+
+
 28. What type of underlying technology allows for microservices to become scalable and have redundancy?
+
+- LEMP Stack 
 
 #### Deploying and Testing a Container Set
 
 Answer the following questions about multi-container deployment:
 
 29. What tool can be used to deploy multiple containers at once?
+- Docker Compose allow us to create repeated, multi-container deployments.
 
 30. What kind of file format is required for us to deploy a container set?
+
+- We used YAML files to deploy Ansible playbooks during our cloud secuirty unit. Docker Compose our YAML to define the containers, their networking configurations, and where you want to copy files from your host machine into your container.
 
 #### Databases
 
 31. Which type of SQL query would we use to see all of the information within a table called `customers`?
 
- Select * from Customers;
+- Select * from Customers;
 
 32. Which type of SQL query would we use to enter new data into a table? (You don't need a full query, just the first part of the statement.)
 
+- INSERT INTO table-name (column-names) VALUES (values);
+
 33. Why would we never run `DELETE FROM <table-name>;` by itself?
 
----
+- Be careful when deleting records in a table. 
+- Explaine: deletes all rows in the "Customers" table, without deleting the table. It should be deleted with the where clause specifies which record(s) 
+-  Explain Delete from table_name where condition;
 
 ### Bonus Challenge Overview: The Cookie Jar
 
