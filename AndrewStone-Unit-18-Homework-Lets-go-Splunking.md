@@ -59,7 +59,7 @@ Not only were web servers taken offline by a DDOS attack, but upload and downloa
 
    -- source="server_speedtest.csv" host="server_speedtest" | eval ratio ='DOWNLOAD_MEGABITS' / 'UPLOAD_MEGABITS'
 
-   ![evalration](Images/eval_ration_DL_UP_megabits.jpg)
+   ![evalration](https://github.com/iastoneCO/Images/blob/687dbf73573107c9a7d0cfb5e6cc74f01e22c95c/Images/eval_ration_DL_UP_megabits.jpg)
       
 3. Create a report using the Splunk's `table` command to display the following fields in a statistics report:
     - `_time`
