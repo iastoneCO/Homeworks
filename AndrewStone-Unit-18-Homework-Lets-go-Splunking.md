@@ -161,7 +161,7 @@ In a word document, provide the following:
   - Answers to all questions where indicated. 
   - Screenshots where indicated.
 
--- I found the attack happened between 9 AM and 1 PM on February 21, 2020; during each of the four hours of the attack hit, the number of failed logins increased to an average of 124, 101, 121, 95, and 123. Therefore, I would make my opinion a baseline of standard failed login activity be less than 49 fail per hour, report an alert with a threshold of the attack 50 pull hour triggered an alert. 
+-- I found the attack happened between 9 AM and 1 PM on February 21, 2020; during each of the four hours of the attack hit, the number of failed logins increased to an average of 124, 101, 121, 95, and 123. Therefore, I would make my opinion a baseline of standard failed login activity be less than 49 fail per hour, report with a threshold of the attack 50 pull hour triggered an alert. 
 
 ![AlertEmailtoBruteForce](https://github.com/iastoneCO/Images/blob/687dbf73573107c9a7d0cfb5e6cc74f01e22c95c/brute-froce-attack-timing.jpg)
 
