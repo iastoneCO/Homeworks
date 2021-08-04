@@ -59,7 +59,7 @@ Not only were web servers taken offline by a DDOS attack, but upload and downloa
 
    -- source="server_speedtest.csv" host="server_speedtest" | eval ratio ='DOWNLOAD_MEGABITS' / 'UPLOAD_MEGABITS'
 
-   ![evalration](https://github.com/iastoneCO/Images/blob/687dbf73573107c9a7d0cfb5e6cc74f01e22c95c/Images/eval_ration_DL_UP_megabits.jpg)
+   ![evalration](https://github.com/iastoneCO/Images/blob/687dbf73573107c9a7d0cfb5e6cc74f01e22c95c/eval_ration_DL_UP_megabits.jpg)
       
 3. Create a report using the Splunk's `table` command to display the following fields in a statistics report:
     - `_time`
@@ -80,7 +80,7 @@ Not only were web servers taken offline by a DDOS attack, but upload and downloa
     - How long did it take your systems to recover?
     -- Systems recovered and were operation normal at 23:30 (11:30PM). It’s taking about 8 hours and 30 minutes. 
 
-    ![reports](Images/server_spreadsheet_table_report.jpg)
+    ![reports](https://github.com/iastoneCO/Images/blob/687dbf73573107c9a7d0cfb5e6cc74f01e22c95c/server_spreadsheet_table_report.jpg)
 
 Submit a screen shot of your report and the answer to the questions above.
  
@@ -109,19 +109,19 @@ Submit a screen shot of your report and the answer to the questions above.
 3. Build an alert that monitors every day to see if this server has any critical vulnerabilities. If a vulnerability exists, have an alert emailed to `soc@vandalay.com`.
 
 Screenshot: 
-![severity](Images/critical_vulnerabilites.jpg)
+![severity](https://github.com/iastoneCO/Images/blob/687dbf73573107c9a7d0cfb5e6cc74f01e22c95c/critical_vulnerabilites.jpg)
 
 -- source="nessus_logs.csv" host="nessus_logs" sourcetype="nessus_logs" dest_ip="10.11.36.23" severity="critical" | stats count
 
 Submit a screenshot of your report and a screenshot of proof that the alert has been created.
 
 -- Resulted counts: 49
-![step2-ipaddress-49](Images/step2-ipaddress-vulnerabilites-49.jpg)
+![step2-ipaddress-49](https://github.com/iastoneCO/Images/blob/687dbf73573107c9a7d0cfb5e6cc74f01e22c95c/step2-ipaddress-vulnerabilites-49.jpg)
 
 If a vulnerability exists, have an alert emailed to `soc@vandalay.com`.
 
 Screenshot Alert Email:
-![AlertEmail](Images/Step2-Alert-setup-email.jpg)
+![AlertEmail](https://github.com/iastoneCO/Images/blob/687dbf73573107c9a7d0cfb5e6cc74f01e22c95c/Step2-Alert-setup-email.jpg)
 
 
 
@@ -160,7 +160,7 @@ In a word document, provide the following:
 
 -- I found the attack happened between 9 AM and 1 PM on February 21, 2020; during each of the four hours of the attack hit, the number of failed logins increased to an average of 124, 101, 121, 95, and 123. Therefore, I would make my opinion a baseline of standard failed login activity be between 1, and 49 fail per hour, report an alert with a threshold of the attack 50 pull hour triggered an alert. 
 
-![AlertEmailtoBruteForce](Images/brute-froce-attack-timing.jpg)
+![AlertEmailtoBruteForce](https://github.com/iastoneCO/Images/blob/687dbf73573107c9a7d0cfb5e6cc74f01e22c95c/brute-froce-attack-timing.jpg)
 
 ---
 
