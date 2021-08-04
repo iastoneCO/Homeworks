@@ -76,9 +76,9 @@ Not only were web servers taken offline by a DDOS attack, but upload and downloa
 4. Answer the following questions:
 
     - Based on the report created, what is the approximate date and time of the attack?
-    -- Based on the bottom report, the attack began at Feb 23, 2020 14:30 (2:30PM)
+    # Based on the bottom report, the attack began at Feb 23, 2020 14:30 (2:30PM)
     - How long did it take your systems to recover?
-    -- Systems recovered and were operation normal at 23:30 (11:30PM). It’s taking about 8 hours and 30 minutes. 
+    # Systems recovered and were operation normal at 23:30 (11:30PM). It’s taking about 8 hours and 30 minutes. 
 
     ![reports](https://github.com/iastoneCO/Images/blob/687dbf73573107c9a7d0cfb5e6cc74f01e22c95c/server_spreadsheet_table_report.jpg)
 
@@ -96,15 +96,17 @@ Submit a screen shot of your report and the answer to the questions above.
    - [Nessus Scan Results](resources/nessus_logs.csv)
 
 -- source="nessus_logs.csv" host="nessus_logs" sourcetype="nessus_logs"
--- Counts 1,849
+
+   ## Counts 1,849
 
 2. Create a report that shows the `count` of critical vulnerabilities from the customer database server.
    - The database server IP is `10.11.36.23`. 
-      -- (dest_ip="10.11.36.23)
+   
+   ## (dest_ip="10.11.36.23)
 
    - The field that identifies the level of vulnerabilities is `severity`.
 
-   -- severity="critical"
+   ## severity="critical"
       
 3. Build an alert that monitors every day to see if this server has any critical vulnerabilities. If a vulnerability exists, have an alert emailed to `soc@vandalay.com`.
 
@@ -115,7 +117,7 @@ Screenshot:
 
 Submit a screenshot of your report and a screenshot of proof that the alert has been created.
 
--- Resulted counts: 49
+   ## Resulted counts: 49
 ![step2-ipaddress-49](https://github.com/iastoneCO/Images/blob/687dbf73573107c9a7d0cfb5e6cc74f01e22c95c/step2-ipaddress-vulnerabilites-49.jpg)
 
 If a vulnerability exists, have an alert emailed to `soc@vandalay.com`.
@@ -135,7 +137,7 @@ Screenshot Alert Email:
 1. Upload the administrator login logs.
    - [Admin Logins](resources/Administrator_logs.csv)
 
-   -- Counts: 3,742
+   ## Counts: 3,742
 
 2. When did the brute force attack occur?
    - Hints:
@@ -162,6 +164,9 @@ In a word document, provide the following:
 
 ![AlertEmailtoBruteForce](https://github.com/iastoneCO/Images/blob/687dbf73573107c9a7d0cfb5e6cc74f01e22c95c/brute-froce-attack-timing.jpg)
 
----
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------------
 
 © 2020 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
