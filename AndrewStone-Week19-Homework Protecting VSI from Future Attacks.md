@@ -38,10 +38,9 @@ Note: This is a public-facing windows server that VSI employees access.
 
 -- I found msad_action in the Splunk screen and run top limit=10 msad_action. The Locked out counted 309 and reset an account's password counted 295. I can see 14 user accounts and probably hacker(s) or user(s) tried to access and have third failed to be locked. I will write a baseline and send an email alert report to investigate locked mitigation, including monitoring access control of the users. If the users still repeat a few locked, we could create a new group and reduce typing the wrong user's login with a password. If that'll able to improve the solve problem.
 
-![lockout](Images/lockout-screehshot.jpg
-)
+![lockout](https://github.com/iastoneCO/Images/blob/1ab7b8cb242eb66b14379d806cdafea799bbf182/lockout-screehshot.jpg)
 
-![lockout2](https://github.com/iastoneCO/Images/blob/1ab7b8cb242eb66b14379d806cdafea799bbf182/Images/lockout-screehshot-2.jpg)
+![lockout2](https://github.com/iastoneCO/Images/blob/1ab7b8cb242eb66b14379d806cdafea799bbf182/lockout-screehshot-2.jpg)
 
 
 ### Part 2: Apache Webserver Attack:
@@ -54,11 +53,11 @@ Note: This is a public-facing windows server that VSI employees access.
 
 - 
 
-![TargetLA1](https://github.com/iastoneCO/Images/blob/1ab7b8cb242eb66b14379d806cdafea799bbf182/Images/Target-at-LosAngeles-bars.jpg)
+![TargetLA1](https://github.com/iastoneCO/Images/blob/1ab7b8cb242eb66b14379d806cdafea799bbf182/Target-at-LosAngeles-bars.jpg)
 
-![TargetLA2](https://github.com/iastoneCO/Images/blob/1ab7b8cb242eb66b14379d806cdafea799bbf182/Images/ZoomPlus-LA-1.jpg)
+![TargetLA2](https://github.com/iastoneCO/Images/blob/1ab7b8cb242eb66b14379d806cdafea799bbf182/ZoomPlus-LA-1.jpg)
 
-![TargetLA3](https://github.com/iastoneCO/Images/blob/1ab7b8cb242eb66b14379d806cdafea799bbf182/Images/ZoomPlus-LA-2.jpg)
+![TargetLA3](https://github.com/iastoneCO/Images/blob/1ab7b8cb242eb66b14379d806cdafea799bbf182/ZoomPlus-LA-2.jpg)
   
 #### Question 2
 
