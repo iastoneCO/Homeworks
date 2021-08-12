@@ -67,9 +67,8 @@ Note: This is a public-facing windows server that VSI employees access.
   - Conceive of two more rules in "plain english". 
   - Hint: Look for other fields that indicate the attacker.
 
-  - I can create to protect VSI from Attacks against my webserver. That's way to add Whitelist all IP Addresses in our Network. 
-
-  - I suggest to add the baseline an alert and investigate mitigation to attack against my webserver to check location, and blacklist IP Addresses coming where's from location.
+  --I can create to protect VSI from Attacks against my webserver. That's way to add Whitelist all IP Addresses in our Network. 
+  -- I suggest to add the baseline an alert and investigate mitigation to attack against my webserver to check location, and blacklist IP Addresses coming where's from location.
   
 
 ### Guidelines for your Submission:
