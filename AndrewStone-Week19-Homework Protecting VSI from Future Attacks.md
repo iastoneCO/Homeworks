@@ -41,7 +41,7 @@ Note: This is a public-facing windows server that VSI employees access.
 ![lockout](Images/lockout-screehshot.jpg
 )
 
-![lockout2](Images/lockout-screehshot-2.jpg)
+![lockout2](https://github.com/iastoneCO/Images/blob/1ab7b8cb242eb66b14379d806cdafea799bbf182/Images/lockout-screehshot-2.jpg)
 
 
 ### Part 2: Apache Webserver Attack:
@@ -54,11 +54,11 @@ Note: This is a public-facing windows server that VSI employees access.
 
 - 
 
-![TargetLA1](Images/Target-at-LosAngeles-bars.jpg)
+![TargetLA1](https://github.com/iastoneCO/Images/blob/1ab7b8cb242eb66b14379d806cdafea799bbf182/Images/Target-at-LosAngeles-bars.jpg)
 
-![TargetLA2](Images/ZoomPlus-LA-1.jpg)
+![TargetLA2](https://github.com/iastoneCO/Images/blob/1ab7b8cb242eb66b14379d806cdafea799bbf182/Images/ZoomPlus-LA-1.jpg)
 
-![TargetLA3](Images/ZoomPlus-LA-2.jpg)
+![TargetLA3](https://github.com/iastoneCO/Images/blob/1ab7b8cb242eb66b14379d806cdafea799bbf182/Images/ZoomPlus-LA-2.jpg)
   
 #### Question 2
 
