@@ -51,8 +51,6 @@ Note: This is a public-facing windows server that VSI employees access.
   - For example: "Block all incoming HTTP traffic where the source IP comes from the city of Los Angeles."
 - Provide a screen shot of the geographic map that justifies why you created this rule. 
 
-- 
-
 ![TargetLA1](https://github.com/iastoneCO/Images/blob/1ab7b8cb242eb66b14379d806cdafea799bbf182/Target-at-LosAngeles-bars.jpg)
 
 ![TargetLA2](https://github.com/iastoneCO/Images/blob/1ab7b8cb242eb66b14379d806cdafea799bbf182/ZoomPlus-LA-1.jpg)
