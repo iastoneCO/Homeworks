@@ -3,12 +3,14 @@
 
 ## Andrew Stone's homework with bonus. 
 
+ Andrew's Homework spreadsheet
  - [Google Sheets: Andrew Homework Russian Team Room](AStoneHW - 21. first-name last-name Russian Tea Room.xlsx)
-
-Andrew's Homework spreadsheet
+ 
+ ---------
 ![Russian-Tea-Room-spreadsheet-1](https://github.com/iastoneCO/Images/blob/eba0f7cbeeea7889968487ac274a79cca0293863/Russian-Tea-Room-Spreadsheet-1.png)
 ![Russian-Tea-Room-spreadsheet-2](https://github.com/iastoneCO/Images/blob/eba0f7cbeeea7889968487ac274a79cca0293863/Russian-Tea-Room-Spreadsheet-2.png)
-
+ ---------
+  
 ![Autospy-RussianTeaRoom](https://github.com/iastoneCO/Images/blob/a7a6c59d5226e640a15f9d0945b6d9afcad56466/Autospy-open-loading-russiantearoom.png)
 
 ![encaseapp](https://github.com/iastoneCO/Images/blob/a7a6c59d5226e640a15f9d0945b6d9afcad56466/encaseimage-app.png)
