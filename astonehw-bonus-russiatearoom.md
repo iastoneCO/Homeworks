@@ -5,19 +5,19 @@
 
  - [Google Sheets: Andrew Homework Russian Team Room](AStoneHW - 21. first-name last-name Russian Tea Room.xlsx)
 
- ![Autospy-RussianTeaRoom](https://github.com/iastoneCO/Images/blob/a7a6c59d5226e640a15f9d0945b6d9afcad56466/Images/Autospy-open-loading-russiantearoom.png)
+ ![Autospy-RussianTeaRoom](https://github.com/iastoneCO/Images/blob/a7a6c59d5226e640a15f9d0945b6d9afcad56466/Autospy-open-loading-russiantearoom.png)
 
-![encaseapp]https://github.com/iastoneCO/Images/blob/a7a6c59d5226e640a15f9d0945b6d9afcad56466/Images/encaseimage-app.png)
+![encaseapp](https://github.com/iastoneCO/Images/blob/a7a6c59d5226e640a15f9d0945b6d9afcad56466/encaseimage-app.png)
 
-![appetizer-menu](https://github.com/iastoneCO/Images/blob/a7a6c59d5226e640a15f9d0945b6d9afcad56466/Images/appetizers-menu.png)
+![appetizer-menu](https://github.com/iastoneCO/Images/blob/a7a6c59d5226e640a15f9d0945b6d9afcad56466/appetizers-menu.png)
 
-![FileMetadataDirectoryPath](https://github.com/iastoneCO/Images/blob/a7a6c59d5226e640a15f9d0945b6d9afcad56466/Images/cutlets.png)
+![FileMetadataDirectoryPath](https://github.com/iastoneCO/Images/blob/a7a6c59d5226e640a15f9d0945b6d9afcad56466/cutlets.png)
 
-![dencodehexstring](https://github.com/iastoneCO/Images/blob/a7a6c59d5226e640a15f9d0945b6d9afcad56466/Images/dencode-hex-string.png)
+![dencodehexstring](https://github.com/iastoneCO/Images/blob/a7a6c59d5226e640a15f9d0945b6d9afcad56466/dencode-hex-string.png)
 
-![dencodeUnicodeEscaped](https://github.com/iastoneCO/Images/blob/a7a6c59d5226e640a15f9d0945b6d9afcad56466/Images/dencode-Unicode-Escaped.png)
+![dencodeUnicodeEscaped](https://github.com/iastoneCO/Images/blob/a7a6c59d5226e640a15f9d0945b6d9afcad56466/dencode-Unicode-Escaped.png)
 
-![decode](https://github.com/iastoneCO/Images/blob/a7a6c59d5226e640a15f9d0945b6d9afcad56466/Images/pancakes-decode.png)
+![decode](https://github.com/iastoneCO/Images/blob/3d0e58c95d1b57df45f530a975d681b6906e323f/pancakes-decode.png)
 
 
 
