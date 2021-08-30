@@ -1,5 +1,25 @@
 ### Bonus Assignment: Russian Tea Room
+
+
 ## Andrew Stone's homework with bonus. 
+
+ - [Google Sheets: Andrew Homework Russian Team Room](AStoneHW - 21. first-name last-name Russian Tea Room.xlsx)
+
+ ![Autospy-RussianTeaRoom](https://github.com/iastoneCO/Images/blob/a7a6c59d5226e640a15f9d0945b6d9afcad56466/Images/Autospy-open-loading-russiantearoom.png)
+
+![encaseapp]https://github.com/iastoneCO/Images/blob/a7a6c59d5226e640a15f9d0945b6d9afcad56466/(Images/encaseimage-app.png)
+
+![appetizer-menu](https://github.com/iastoneCO/Images/blob/a7a6c59d5226e640a15f9d0945b6d9afcad56466/Images/appetizers-menu.png)
+
+![FileMetadataDirectoryPath](https://github.com/iastoneCO/Images/blob/a7a6c59d5226e640a15f9d0945b6d9afcad56466/Images/cutlets.png)
+
+![dencodehexstring](https://github.com/iastoneCO/Images/blob/a7a6c59d5226e640a15f9d0945b6d9afcad56466/Images/dencode-hex-string.png)
+
+![dencodeUnicodeEscaped](https://github.com/iastoneCO/Images/blob/a7a6c59d5226e640a15f9d0945b6d9afcad56466/Images/dencode-Unicode-Escaped.png)
+
+![decode](https://github.com/iastoneCO/Images/blob/a7a6c59d5226e640a15f9d0945b6d9afcad56466/Images/pancakes-decode.png)
+
+
 
 The goal of this assignment is to sharpen your skills in locating and identifying data in a forensic image.
 
