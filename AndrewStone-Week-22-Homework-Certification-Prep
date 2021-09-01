@@ -83,7 +83,7 @@ All of the following courses are free:
 
      Great, I did watch the Coursera video and worked on the subtitles video. 
 
-     ![courseravideo](Images/coursera-cloudcomputingbasic-1.png)
+     ![courseravideo](https://github.com/iastoneCO/Images/blob/5c4b0255e097c3fdd18420a2bc2de32aab4cae0e/coursera-cloudcomputingbasic-1.png)
  
         
     - **Option 2**: You may be unable to complete your certification before the due date for a number of reasons, such as:
@@ -106,7 +106,7 @@ All of the following courses are free:
 -- I enrolled in Amazon Training, and I watched the name is Elastic Compute Cloud (EC2) about ten minutes. But the Amazon Training video does not accommodate Closed captioning or subtitles. So I watched a guy showed how to do hands-on on his windows screen. I received it and passed my Certificate Amazon Elastic Compute Cloud. Fortunately, I remember doing hands-on on Azure Lab with SSH access to use Elastic Cloud. 
 
 I received a cerification Elastic Compute Cloud (EC2)
-Here's : ![EC2](Images\amazonCert-elastic.png)
+Here's : ![EC2](https://github.com/iastoneCO/Images/blob/5c4b0255e097c3fdd18420a2bc2de32aab4cae0e/amazonCert-elastic.png)
 
 
 
