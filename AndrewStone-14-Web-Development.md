@@ -1,5 +1,6 @@
 ## AndrewStone-Week-14-Homework-Web-Development
 ###updated Andrew fixed something error with markdown - 09/01/2021
+###updated Andrew fixed something error with markdown - 09/13/2021
 
 ### Overview
 
@@ -18,60 +19,75 @@ Before you work through the questions below, please create a new file and record
 
 Answer the following questions about the HTTP request and response process.
 
-1. What type of architecture does the HTTP request and response process occur in? 
+1. What type of architecture does the HTTP request and response process occur in? pg 13
 
-- HTTP request is the server receives the request finds the requested resource.
-- HTTP Responses are sent back from the HTTP servers as a response to the client.
+ - Client-Server Architecture
 
-2. What are the different parts of an HTTP request? 
-- Clients and servers use the HTTP protocol to communicate on the web. 
-- HTTP is a Layer 7 Application Layer protocol used to transfer webpages, static assets, (images, HTML files, and raw data as video/audio). 
-- An HTTP request the server receiveds the request, find the request resource, and sends it back.
+2. What are the different parts of an HTTP request?  pg 18
 
-3. Which part of an HTTP request is optional?
-- OPTIONS requests ask an HTTP server to respond with all HTTP methods that the HTTP server is programmed to respond.
+ - Request Line, Headers and Request Body 
+ 
+
+3. Which part of an HTTP request is optional? pg 18
+
+- The request body is optional
 
 4. What are the three parts of an HTTP response?
+
 - status line, 
 - headers, 
 - response body
 
-5. Which number class of status codes represents errors?
-- Codes represents error is 404 
+5. Which number class of status codes represents errors? pg 36
+
+- Status codes include the fourth class represents errors.  Status codes :(200, 300, 400, 500)
 
 6. What are the two most common request methods that a security professional will encounter?
-- Authorization and Cookie includes in the headers. 
 
-7. Which type of HTTP request method is used for sending data?
 -  GET and POST
 
+7. Which type of HTTP request method is used for sending data?
+
+- Post request Method
+
 8. Which part of an HTTP request contains the data being sent to the server?
-- HTTP Post request where's include a request body below the whitespace.
-- username=Jane+Does&password=p455 
+
+- The equest body the data being sent to the server.  
 
 9. In which part of an HTTP response does the browser receive the web code to generate and style a web page?
--Anatomy of an HTTP response - status line contains the response status code and phrase that translates the result, such as OK or Error. 
-- HTTP/1.1 200 okay
+
+- Response Body
+
 
 #### Using curl
 
 Answer the following questions about `curl`:
 
-10. What are the advantages of using `curl` over the browser? 
-- Test Web server security configuration, 
-- Ensure web servers don't leak sensitive data.
-- Verify that servers only respond to certain type of requests. 
-- Look for vulnerabilities on web server.
+10. What are the advantages of using `curl` over the browser?  
+
+- Features of Curl - include HTTP, HTTPS, FTP, FTPS, DICT, LDAP, RTMP etc. 
+You can think of curl as command line browser. You give it a URL and returns you the response. With curl you can also pass HTTP headers, cookies and authentication information.
+- Advantages : LIBCURL (CURL LIBRARY PHP)currently supports the http, https, ftp, gopher, telnet, dict, file, and ldap protocols. LIBCURL (CURL LIBRARY PHP) also supports HTTPS certificates, HTTP POST, HTTP PUT, FTP uploading (this can also be done with PHP’s ftp extension), HTTP form based upload, proxies, cookies, and user plus password authentication.
+- curl is a tool to transfer data from or to a server, using one of the supported protocols (DICT, FILE, FTP, FTPS, GOPHER, HTTP, HTTPS, IMAP, IMAPS, LDAP, LDAPS, POP3, POP3S, RTMP, RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET and TFTP). The command is designed to work without user interaction.
+
 
 11. Which `curl` option is used to change the request method?
 
+- Use  the Curl -X or request command line option follow by the method name ot change the request method. 
+
+
 12. Which `curl` option is used to set request headers?
 
-- curl https://posthere.io/ --head
+ - You can use the -H option and set the header name value in enclosed quotes. 
+ 
 
 13. Which `curl` option is used to view the response header?
- - HTTP Response Body is. 
-    HTTP/1.1 200 OK is a code good. 
+
+- Perhaps this is best shown with a few examples. To send first a HEAD and then a GET:curl -I http://example.com 
+
+![-I-image](Images/curl-view-I-image-1.png)
+
+
 
  -----------------------------Headers-----------------
 Server: nginx/1.9.2
@@ -85,8 +101,8 @@ Accept-Ranges: bytes
 -----------------------------End Headers--------------
 
 14. Which request method might an attacker use to figure out which HTTP requests an HTTP server will accept?
-I think an attacker use to verifty 
-- ETag: "5e7ce7b3-3269"
+
+- The GET or OPTION request method.
 
 #### Sessions and Cookies
 
@@ -95,21 +111,24 @@ Recall that HTTP servers need to be able to recognize clients from one another. 
 Answer the following questions about sessions and cookies:
 
 15. Which response header sends a cookie to the client?
-- Set-Cookie: cart=Bob
 
-    ```HTTP
+- The set-cookie sends a cookie to the Client. 
+
+    ```HTTP/1.1 200 OK 
+        Content-type: text/html
+        Set-Cookie: cart=Bob
+    ```
+
+
+16. Which request header will continue the client's session?
+
+- The Cookie will continue the client's session. 
+
+   ```HTTP
     HTTP/1.1 200 OK
     Content-type: text/html
     Set-Cookie: cart=Bob
     ```
-
-16. Which request header will continue the client's session?
-- GET /cart HTTP/1.1
-
-    ```HTTP
-    GET /cart HTTP/1.1
-    Host: www.example.org
-    Cookie: cart=Bob
 
 #### Example HTTP Requests and Responses
 
@@ -133,19 +152,19 @@ username=Barbara&password=password
 
 17. What is the request method?
 
-- HTTP POST /login.php HTTP/1.1
+-  POST 
 
 18. Which header expresses the client's preference for an encrypted response?
 
-- HTTP POST /login.php HTTP/1.1
+- Upgrade-Insecure-Requests.
 
 19. Does the request have a user session associated with it?
 
-- No Cookie
+- No, there is nothing session associated with the request.
 
 20. What kind of data is being sent from this request body?
 
-- username=Barbara&password=password
+- Login Data
 ```
 
 **HTTP Response**
@@ -177,11 +196,14 @@ X-XSS-Protection: 1; mode=block
 - Yes, I see "Set-Cookie: SessionID=5"
 
 24. What kind of content is likely to be in the [page content] response body?
-- gzip
+
+- Details of the page configuration.
 
 25. If your class covered security headers, what security request headers have been included?
-- Strict-Transport-Security: max-age=31536000; includeSubDomains
 
+- Strict-Transport-Security: max-age=31536000; includeSubDomains or XSS Protection. 
+
+- It allows web servers to declare that web browsers (or other complying user agents) should automatically interact with it using only HTTPS connections, which provide Transport Layer Security (TLS/SSL), unlike the insecure HTTP used alone. HSTS is an IETF standards track protocol and is specified in RFC 6797
 
 #### Monoliths and Microservices
 
@@ -189,13 +211,10 @@ Answer the following questions about monoliths and microservices:
 
 26. What are the individual components of microservices called?
 
-- how microservices and architecture work to deliver more robust, reliable, 
-and repeatable infrastructure as code. 
-
+- Services
 
 27. What is a service that writes to a database and communicates to other services?
-
-- Back-end server
+- API Service , Back-end server
 Executes business logic and 
 writes or reads corresponding 
 data to and from a database. 
@@ -203,7 +222,7 @@ data to and from a database.
 
 28. What type of underlying technology allows for microservices to become scalable and have redundancy?
 
-- LEMP Stack 
+- LEMP Stack - Load balancing machine
 
 #### Deploying and Testing a Container Set
 
@@ -220,7 +239,7 @@ Answer the following questions about multi-container deployment:
 
 31. Which type of SQL query would we use to see all of the information within a table called `customers`?
 
-- Select * from Customers;
+- Select column_name from Customers; Sample Select * from Customers;
 
 32. Which type of SQL query would we use to enter new data into a table? (You don't need a full query, just the first part of the statement.)
 
@@ -231,7 +250,10 @@ Answer the following questions about multi-container deployment:
 - Be careful when deleting records in a table. 
 - Explaine: deletes all rows in the "Customers" table, without deleting the table. It should be deleted with the where clause specifies which record(s) 
 -  Explain Delete from table_name where condition;
+- It will delete the entire table without a select statement.
 
+### []
+### {}
 ### Bonus Challenge Overview: The Cookie Jar
 
 For this challenge, you'll once again be using `curl`, but this time to manage and swap sessions.
